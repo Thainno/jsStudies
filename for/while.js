@@ -1,4 +1,4 @@
-const compras = [
+const setup = [
     'monitor',
     'teclado',
     'mouse',
@@ -15,7 +15,7 @@ while (condição) {
 */
 
 let index = 0
-while (index < compras.length) {
-    console.log(`${index + 1}_ ${compras[index]}`)
+while (index < setup.length) {
+    console.log(`${index + 1}_ ${setup[index]}`)
     index++
 }

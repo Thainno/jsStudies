@@ -1,15 +1,15 @@
-const empresa = [
+const setup = [
     {
-        nome: 'João',
-        cargo: 'Suporte'
+        hardware: 'processador',
+        funcao: 'processar'
     },
     {
-        nome: 'Maria',
-        cargo: 'Gerente'
+        hardware: 'memória',
+        funcao: 'memoriar'
     },
     {
-        nome: 'Paloma',
-        cargo: 'Recursos humanos'
+        hardware: 'monitor',
+        funcao: 'monitorar'
     }
 ]
 
@@ -18,7 +18,7 @@ for (variavel in objeto) {...
 }
 */
 
-for (let colaborador in empresa) {
-    console.log(empresa[colaborador])
+for (let periferico in setup) {
+    console.log(setup[periferico])
 }
 
